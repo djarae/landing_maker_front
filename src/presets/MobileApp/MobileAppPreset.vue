@@ -66,21 +66,28 @@ const styleClass = computed(() => {
    ESTILO SILVER/RHODIUM
    ============================================ */
 
-/* Silver Day */
+/* Silver Day (Metagross Shiny Inspired) */
 .style-silverrhodium.theme-day {
-  --bg-primary: #E8E8E8;
-  --bg-secondary: #D0D0D0;
-  --bg-gradient: linear-gradient(135deg, #C0C0C0 0%, #E8E8E8 100%);
-  --accent: #B8860B;
-  --accent-hover: #DAA520;
-  --text-primary: #1A1A1A;
-  --text-secondary: #4A4A4A;
-  --card-bg: linear-gradient(145deg, #F0F0F0, #D8D8D8);
-  --border-color: #A0A0A0;
-  --shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
-  --button-gradient: linear-gradient(135deg, #C0C0C0, #A8A8A8);
+  --bg-primary: #F0F2F5; /* Plata muy claro casi blanco */
+  --bg-secondary: #E0E4E8;
+  --bg-gradient: linear-gradient(135deg, #F5F7FA 0%, #C3CFE2 100%);
+  
+  /* Dorado Metagross Shiny: Amarillo oro intenso y brillante */
+  --accent: #FFD700;  /* Gold puro */
+  --accent-hover: #FFC000; /* Un poco más oscuro al hover */
+  
+  --text-primary: #2C3E50; /* Azul acero oscuro para contraste */
+  --text-secondary: #5D6D7E;
+  
+  --card-bg: rgba(255, 255, 255, 0.8);
+  --border-color: #BDC3C7;
+  --shadow: 0 8px 32px rgba(31, 38, 135, 0.1);
+  
+  /* Gradiente para botones dorados metálicos */
+  --button-gradient: linear-gradient(135deg, #FFD700 0%, #FDB931 50%, #FFD700 100%);
+  
   --bevel-light: #FFFFFF;
-  --bevel-dark: #888888;
+  --bevel-dark: #B0B0B0;
 }
 
 /* Rhodium Night */
